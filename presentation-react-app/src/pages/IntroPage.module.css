@@ -1,0 +1,24 @@
+.header {
+  /* margin-left: -3rem; */
+  /* font-family: Georgia; */
+  width: 30%;
+  margin: auto;
+  margin-bottom: 1.5rem;
+}
+
+.introText {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.cardItems {
+  list-style: none;
+  width: 100%;
+}
+
+.thisCard {
+  width: 31%;
+  float: left;
+  margin: 1%;
+}

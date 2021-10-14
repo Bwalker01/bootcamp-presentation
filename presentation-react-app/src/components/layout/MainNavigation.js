@@ -11,13 +11,13 @@ const MainNavigation = () => {
       <nav className={classes.nav}>
         <ul>
           <li>
-            <Link to="/coreskills">Core Skills</Link>
+            <Link to="/coreskills">CORE</Link>
           </li>
           <li>
-            <Link to="/codingskills">Coding Skills</Link>
+            <Link to="/codingskills">CODING</Link>
           </li>
           <li>
-            <Link to="/bestpractices">Best Practices</Link>
+            <Link to="/bestpractices">BEST PRACTICES</Link>
           </li>
         </ul>
       </nav>

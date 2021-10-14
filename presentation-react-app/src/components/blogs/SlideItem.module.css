@@ -1,5 +1,6 @@
 .item {
   margin: 1rem 0;
+  text-decoration: none;
 }
 
 .image {
@@ -28,6 +29,12 @@
 .content h3 {
   font-size: 1.25rem;
   color: #2c292b;
+}
+
+.content h4 {
+  font-size: 1.05rem;
+  font-style: italic;
+  color: #808080;
 }
 
 .actions {

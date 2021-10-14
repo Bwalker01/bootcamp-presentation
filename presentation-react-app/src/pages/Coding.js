@@ -4,7 +4,7 @@ import SlideList from "../components/blogs/SlideList";
 const CodingPage = () => {
   return (
     <section>
-      <h1>Our Coding Skills</h1>
+      <h1>CODING SKILLS</h1>
       <SlideList slides={array} />
     </section>
   );
