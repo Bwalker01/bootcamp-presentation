@@ -5,17 +5,19 @@ import classes from "./MainNavigation.module.css";
 const MainNavigation = () => {
   return (
     <header className={classes.header}>
-      <div className={classes.logo}>Travel Blogger</div>
+      <div className={classes.logo}>
+        <Link to="/">Presentation Cohort 2021</Link>
+      </div>
       <nav className={classes.nav}>
         <ul>
           <li>
-            <Link to="/">All Travel Blogs</Link>
+            <Link to="/coreskills">Core Skills</Link>
           </li>
           <li>
-            <Link to="/new-travel-blog">Create New Travel Blog</Link>
+            <Link to="/codingskills">Coding Skills</Link>
           </li>
           <li>
-            <Link to="/bucket-list">Bucket List</Link>
+            <Link to="/bestpractices">Best Practices</Link>
           </li>
         </ul>
       </nav>

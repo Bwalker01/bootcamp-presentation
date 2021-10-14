@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #700077;
+  background-color: #409ddb;
   color: white;
   padding: 0 10%;
   width: 100vw;
@@ -31,7 +31,7 @@
 .nav a {
   text-decoration: none;
   font-size: 1.5rem;
-  color: #fcb8d2;
+  color: #5c23df;
 }
 
 .nav a:hover,
