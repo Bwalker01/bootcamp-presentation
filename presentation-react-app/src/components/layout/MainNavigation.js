@@ -6,7 +6,7 @@ const MainNavigation = () => {
   return (
     <header className={classes.header}>
       <div className={classes.logo}>
-        <Link to="/">Presentation Cohort 2021</Link>
+        <Link to="/">Bootcamp Recap</Link>
       </div>
       <nav className={classes.nav}>
         <ul>

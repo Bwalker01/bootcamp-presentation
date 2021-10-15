@@ -11,7 +11,7 @@ export const array = [
     "Best Practices",
     DontRepeat,
     ["DRY", "KISS", "SOLID"],
-    `Don't Repeat Yourself & Keep It Simple Stupid can refer to functions within JavaScript, conveying that 
+    `Don't Repeat Yourself & Keep It Simple and Straight can refer to functions within JavaScript, conveying that 
     where possible, a function should be used to avoid repeating blocks of code within a program, as well as 
     keeping these as simple as possible to avoid redundant code or overcomplications preventing the program from 
     running entirely.
