@@ -26,6 +26,7 @@
 .logo a:active {
   text-decoration: none;
   color: white;
+  margin-left: -5rem;
 }
 
 .nav a {

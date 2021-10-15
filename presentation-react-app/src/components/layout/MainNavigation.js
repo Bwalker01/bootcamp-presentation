@@ -17,7 +17,7 @@ const MainNavigation = () => {
             <Link to="/codingskills">CODING</Link>
           </li>
           <li>
-            <Link to="/bestpractices">BEST PRACTICES</Link>
+            <Link to="/bestpractices">TIPS & TRICKS</Link>
           </li>
         </ul>
       </nav>

@@ -4,7 +4,7 @@ import { array } from "../components/slides/BestPracticesSlides";
 const BestPractices = () => {
   return (
     <section>
-      <h1>BEST PRACTICES</h1>
+      <h1>TIPS & TRICKS</h1>
       <SlideList slides={array} />
     </section>
   );

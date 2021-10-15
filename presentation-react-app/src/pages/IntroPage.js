@@ -1,5 +1,8 @@
-import SlideItem from "../components/blogs/SlideItem";
+import ProfileCard from "./ProfileCard";
 import classes from "./IntroPage.module.css";
+import RamiPhoto from "./profile-images/rami-photo.jpg";
+import BenPhoto from "./profile-images/ben-photo.jpg";
+import KallumPhoto from "./profile-images/kallum-photo.png";
 
 const IntroPage = () => {
   return (
@@ -14,30 +17,27 @@ const IntroPage = () => {
       <h1 className={classes.header}>ABOUT US</h1>
       <div className={classes.cardItems}>
         <div className={classes.thisCard}>
-          <SlideItem
-            image="https://ca.slack-edge.com/T02DY60092B-U02FT9M11Q8-8b340ff4bf8a-512"
+          <ProfileCard
+            image={BenPhoto}
             name={"Ben Walker"}
             description={"Tech enthusiast a with love of LEDs."}
-            keyPoints={[]}
-            speaker={"BJSS, Leeds"}
+            job={"BJSS, Leeds"}
           />
         </div>
         <div className={classes.thisCard}>
-          <SlideItem
-            image=""
+          <ProfileCard
+            image={KallumPhoto}
             name={"Kallum Jones"}
-            description={"Description here"}
-            keyPoints={[]}
-            speaker={"AutoTrader, Manchester"}
+            description={"Boardgame and cat enthusiast."}
+            job={"AutoTrader, Manchester"}
           />
         </div>
         <div className={classes.thisCard}>
-          <SlideItem
-            image=""
-            name={"Rami Yasir"}
-            description={"Description here"}
-            keyPoints={[]}
-            speaker={"BJSS, Manchester"}
+          <ProfileCard
+            image={RamiPhoto}
+            name="Rami Yasir"
+            description={"Utter nerd, good with a pen."}
+            job={"BJSS, Manchester"}
           />
         </div>
       </div>
